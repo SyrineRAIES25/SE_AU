@@ -1,0 +1,11 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?7" , 
+    "Plant" : "UAT" , 
+    "Message1" : "Process running in background, this action can take several minutes" , 
+    "DataFlowName" : "Test" , 
+    "Description" : "Archive flow test" , 
+    "DataDestination" : "testing-testing" , 
+    "Update" : " test" , 
+    "UpdateDescription" : " "
+}

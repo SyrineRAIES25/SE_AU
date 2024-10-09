@@ -1,0 +1,12 @@
+{
+    "username" : "U1006751",
+    "password" : "Tt78ehuf%?772525",
+    "username1" : "z_test_stream_user",
+    "password1" : "qsdfgh1+",
+    "Fakeusername" : "Wrong_user",
+    "Fakepassword" : "1234",
+    "role"     : "STREAMING_ENGINE_ADMIN_ITS",
+    "role1"    : "STREAMING_ENGINE_ADMIN", 
+    "role2"    : "STREAMING_ENGINE_USER",
+    "ErrorMsg" : "Unable to update Data Source - Flat file cannot be deactivated while data source is in use by a file flow"
+}

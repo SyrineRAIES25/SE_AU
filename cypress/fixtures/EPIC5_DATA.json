@@ -1,0 +1,10 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?" , 
+    "DestinationName" : "PRD" , 
+    "DestinationName2" : "Sanofi" , 
+    "DDName" : "Test_Destination" , 
+    "DDType" : "Local Folder" , 
+    "DDPath" : "Test/12" ,
+    "AuthentificationMenu" : "None"
+}

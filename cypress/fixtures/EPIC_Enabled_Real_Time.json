@@ -1,0 +1,14 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?77" ,
+    "Plant" : "UAT Test Plant" ,
+    "DataSourceType" : "Archive" , 
+    "DataSourceName" : "UAT_Test_Data_Source", 
+    "DataSourceDescription" : "TEST" , 
+    "DataServer" : "OEE_IP21" ,
+    "PCo_Cred" : "SE_PCo_FRA" ,
+    "Type" : "PCo" , 
+    "Message" : "Data Source information has been saved successfully" , 
+    "Prefix" : "Mandatory" , 
+    "Update" : "Test"
+}

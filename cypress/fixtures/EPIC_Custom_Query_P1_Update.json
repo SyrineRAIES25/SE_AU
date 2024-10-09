@@ -1,0 +1,25 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?772525" , 
+    "DataSourceType" : "Archive" , 
+    "Plant" : "UAT Test Plant" ,
+    "Plant2" : "AQO" ,
+    "DataSourceName" : "UAT_Data_Source", 
+    "DataSourceDescription" : "TEST" ,
+    "DataServer" : "OEE_IP21" ,
+    "DataServerType" : "PCo" ,
+    "PCo_Cred" : "SE_PCo_FRA" , 
+    "DataSourceFiltre" : "GEL_OSISoft PI (DEV)" ,
+    "Message1" : "Process running in background, this action can take several minutes" , 
+    "DataFlowName" : "Test" , 
+    "Description" : "Archive flow test" , 
+    "DataDestination" : "Sanofi DEV Data Lake Archive" , 
+    "Update" : " test" , 
+    "UpdateDescription" : " ", 
+    "Find" : "Archive flow test" , 
+    "Description2" : "Archive flow test update" , 
+    "Message" : "Add Archive Flow" , 
+    "Message2" : "Update Archive Flow" ,
+    "SqlQuery" : "SELECT \n h.ElementID AS ID, \n h.Path AS PATH , \n h.Name AS NAME, \n h.Level AS LEVEL \n FROM \n  Asset.ElementHierarchy h \n WHERE \n h.Level = [Param.1] \n  ORDER BY  \n h.Path+h.Name ASC" 
+
+}

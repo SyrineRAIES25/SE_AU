@@ -1,0 +1,11 @@
+{
+    "login" : "U1006751",
+    "password" : "Tt78ehuf%?77" , 
+    "DataSource" : "Data Source test Demo for external flow" , 
+    "DataFlowName" : "Engie WattsOn test Flow" , 
+    "Description" : "Test" , 
+    "ExternelFlow" : "WattsOn - Engie" , 
+    "Country" : "IT" , 
+    "Country1" : "FR" , 
+    "DataDestination" : "Sanofi DEV Data Lake Archive"
+}

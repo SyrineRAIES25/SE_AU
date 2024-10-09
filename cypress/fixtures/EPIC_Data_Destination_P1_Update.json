@@ -1,0 +1,18 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?772525" ,
+    "Plant" : "UAT Test Plant" ,
+    "DataSourceType" : "Flat File" ,
+    "DataSourceName" : "Test File Flow JSON", 
+    "DataSourceName_2" :"Test File Flow CSV" ,
+    "DataSourceDescription" : "TEST" ,
+    "DataServer" : "OEE_IP21" ,
+    "PCo_Cred" : "SE_PCo_FRA" , 
+    "Prefix" : "test", 
+    "DestinationName" : "PRD" , 
+    "DestinationName2" : "Sanofi" , 
+    "DDName" : "Test_Destination" , 
+    "DDType" : "Local Folder" , 
+    "DDPath" : "Test/12" ,
+    "AuthentificationMenu" : "None"
+}

@@ -1,0 +1,19 @@
+{
+    "login" : "U1006751",
+    "password" : "Tt78ehuf%?77" , 
+    "Plant" : "UAT Test Plant" , 
+    "DataSourceType" : "Engie - WattsON" ,
+    "DataSourceName" : "Test Data Source Engie" , 
+    "DS_Description" : "Test Data Source Engie for UAT" , 
+    "DataFlowName" : "Engie WattsOn test Flow" ,
+    "Description" : "Engie WattsOn test Flow" , 
+    "ExternalFlowType" : "WattsOn - Engie" , 
+    "Gas_Supplier_Name" : "SNAM" , 
+    "Gas_Metering_Point": "32854101" , 
+    "Reference_Conditions" : "IT_METERING" , 
+    "Gaz_Frequency" : "10T" , 
+    "Power_Supplier_Name": "RTE" ,
+    "Power_Metering_Point": "3700" ,
+    "DataDestination": "Sanofi UAT Data Lake Archive"  , 
+    "CountryCode" : "FR"
+}

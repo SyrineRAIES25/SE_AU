@@ -1,0 +1,27 @@
+{
+  "login": "U1006751",
+  "password": "Tt78ehuf%?77",
+  "Plant" : "Geel" , 
+  "DataSourceName" : "Custom SQL UAT [Geel] 1 " , 
+  "DataServerProcess" : "PCoSimulator" , 
+  "DataServerContextual" :"SE_GEL1PDHSBAFCA01_AF_PROD" , 
+  "TypeContextual" : "PCo" ,
+  "Description" : "Custom SQL UAT [Geel]" , 
+  "PcoServerUrl" : "http://168.124.155.95:50050/PCoManagement" , 
+  "PcoCredential" : "SE_PCo_GEL" , 
+  "BatchSource" : "Custom Query" , 
+  "Level" : "3,4,5" , 
+  "SqlQuery" : "SELECT \n h.ElementID AS ID, \n h.Path AS PATH , \n h.Name AS NAME, \n h.Level AS LEVEL \n FROM \n  Asset.ElementHierarchy h \n WHERE \n h.Level = [Param.1] \n  ORDER BY  \n h.Path+h.Name ASC" ,
+  "PlantComboBox" : "Pilar" ,
+  "SqlQuery_1" : "SELECT \n h.ElementID AS ID, \n h.Path AS PATH , \n h.Name AS NAME, \n h.Level AS LEVEL AND NULL \n FROM \n  Asset.ElementHierarchy h \n WHERE \n h.Level = [Param.1] \n  ORDER BY  \n h.Path+h.Name ASC" ,
+  "SqlQuery_2" : "SELECT \n h.ElementID AS ID, \n h.Path AS PATH , \n h.Name AS NAME, \n h.Level AS LEVEL , \n h.Level AS TEST \n FROM \n  Asset.ElementHierarchy h \n WHERE \n h.Level = [Param.1] \n  ORDER BY  \n h.Path+h.Name ASC" ,
+  "SqlQuery_3" : "SELECT \n e.ID AS EQUIPMENT_ID, \n ef.Name as RECIPE_NAME, \n eft.Name AS EventFrameTemplateName, \n ef.StartTime AS START_DATE, \n ef.EndTime AS END_DATE, \n e.Name AS EQUIPMENT_NAME, \n efs.Value AS BATCH_ID \n FROM \n EventFrame.EventFrame ef \n INNER JOIN \n EventFrame.EventFrameTemplate eft \n on ef.EventFrameTemplateID = eft.ID \n INNER JOIN \n EventFrame.EventFrameAttribute efa \n on efa.EventFrameID = ef.ID \n INNER JOIN \n Data.EventFrameSnapshot efs \n ON efs.EventFrameAttributeID = efa.ID \n INNER JOIN Asset.Element e ON e.ID = ef.PrimaryReferencedElementID \n WHERE (ef.StartTime BETWEEN [SD] AND [ED] OR ef.EndTime BETWEEN [SD] AND [ED]) \n AND efa.Name = 'Batch Name'" ,
+  "Update_Sql" : " " , 
+  "input" : " ", 
+  "StartDate" : "01/01/2022" , 
+  "ToDate" : "31/01/2022" , 
+  "StartDateHistorical" : "01/01/2022" , 
+  "EndDate" : "01/31/2022" , 
+  "Time" : "1440"
+
+}

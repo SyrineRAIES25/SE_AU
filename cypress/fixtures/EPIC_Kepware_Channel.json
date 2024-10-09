@@ -1,0 +1,16 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?77" , 
+    "DataSourceType" : "Archive" , 
+    "Plant" : "UAT Test Plant" ,
+    "DataSourceName" : "UAT_Data_Source", 
+    "DataSourceName_Update" : "UAT_Data_Source Update", 
+    "DataSourceDescription" : "TEST" ,
+    "DataSourceDescription_Update" : "TEST UPDATE" , 
+    "DataServer" : "OEE_IP21" ,
+    "DataServer_Update" : "OEE_IP21_ODBC" , 
+    "DataServerType" : "Kepware" ,
+    "PCo_Cred" : "SE_PCo_FRA" ,
+    "PCo_Cred_Update" : "SE_PCo_GEL" ,
+    "DataSourceFiltre" : "GEL_OSISoft PI (DEV)" 
+}

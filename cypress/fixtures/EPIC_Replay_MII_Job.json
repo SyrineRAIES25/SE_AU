@@ -1,0 +1,23 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?772525" , 
+    "DataSourceType" : "Archive" ,
+    "DataSource" : "UAT_Test_Source" , 
+    "DataFlowName" : "UAT Test Archive Flow" , 
+    "Description" : "Archive Flow for UAT" , 
+    "DataDestination" : "Sanofi DEV Data Lake Archive" , 
+    "Message" : "Operation executed successfully" , 
+    "Plant" : "UAT Test Plant" ,
+    "DataSourceName" : "UAT_Data_Source", 
+    "DataSourceDescription" : "TEST" ,
+    "DataServer" : "OEE_IP21" ,
+    "DataServerType" : "PCo" ,
+    "PCo_Cred" : "SE_PCo_FRA" , 
+    "DataFlowName2" : "Tag Contextual UAT" , 
+    "Description_Contextual" : "UAT Tag Contextual" , 
+    "DataDestination_Contextual" : "Sanofi UAT Data Lake Contextual", 
+    "Message2" : "Flow information has been updated successfully" , 
+    "DateEnd" : "12/03/2023" , 
+    "Catchup" : "NA" 
+    
+ }

@@ -1,0 +1,9 @@
+{
+    "login" : "U1006751",
+    "password" : "Tt78ehuf%?77" , 
+    "DataSource" : "UAT_Test_Source" , 
+    "DataFlowName" : "UAT Test Real Time Flow" , 
+    "Description"  : "Real Time Flow for UAT" ,
+    "DataDestination" : "Sanofi UAT Data Lake Archive" , 
+    "Message" : "Operation executed successfully"
+}

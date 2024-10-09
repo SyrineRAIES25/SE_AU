@@ -1,0 +1,18 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?" , 
+    "Plant" : "UAT" ,
+    "Message1" : "Process running in background, this action can take several minutes" , 
+    "DataSource" : "UAT" , 
+    "SqlQuery_3" : "SELECT \n h.ElementID AS ID, \n h.Path AS PATH , \n h.Name AS NAME, \n h.Level AS LEVEL , \n h.Level AS TEST \n FROM \n  Asset.ElementHierarchy h \n WHERE \n h.Level = [Param.1] \n  ORDER BY  \n h.Path+h.Name ASC" ,
+    "DataFlowName" : "Test" ,
+    "Description" : "Test" , 
+    "Message2" : "Add Contextual Flow" , 
+    "Update" : " Contextual flow " , 
+    "Update2" : " " , 
+    "Message3" : "Update Contextual Flow" , 
+    "Message4" : "Delete Contextual Flow"
+
+
+
+}

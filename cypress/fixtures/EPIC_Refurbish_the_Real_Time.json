@@ -1,0 +1,15 @@
+{
+    "login": "U1006751" ,
+    "password": "Tt78ehuf%?77" ,
+    "Plant" : "UAT Test Plant" ,
+    "DataSourceType" : "Realtime" , 
+    "DataSourceName" : "Test RT", 
+    "DataSourceDescription" : "TEST RT" , 
+    "DataServer_Type" : "OEE_IP21" ,
+    "PCo_Cred" : "SE_PCo_FRA" ,
+    "Type" : "PCo" , 
+    "Message" : "Data Source information has been saved successfully" , 
+    "Prefix" : "SE_ROCHDI_Pool" , 
+    "Update" : "Test" , 
+    "DestinationType" : "PCo Data Destination"
+}
